@@ -1,0 +1,122 @@
+
+.btn1{
+    background-color: darkolivegreen;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+.btn2{
+    background-color: rgb(47, 98, 107);
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+.btn3{
+    background-color: rgb(107, 47, 105);
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+.btn4{
+    background-color: rgb(228, 236, 16);
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+/* first media query for mobile 
+@media screen and (max-width:800px) {
+    .btn1{
+        background-color: black;
+        color: white;
+        height: 80px;
+        width: 300px;
+    }
+    .btn2{
+        background-color: palevioletred;
+        color: white;
+        height: 80px;
+        width: 300px;
+    }
+    .btn3{
+        background-color: rgb(99, 99, 224);
+        color: white;
+        height: 80px;
+        width: 300px;
+    }
+    .btn4{
+        background-color: gold;
+        color: white;
+        height: 80px;
+        width: 300px;
+    } */
+
+
+
+
+
+   
+
+    /* second media query for tablet */
+    @media screen and (max-width:600px) {
+        
+            .btn1{
+                background-color: black;
+                color: white;
+                height: 80px;
+                width: 300px;
+            }
+            .btn2{
+                background-color: palevioletred;
+                color: white;
+                height: 80px;
+                width: 300px;
+            }
+            .btn3{
+                background-color: rgb(99, 99, 224);
+                color: white;
+                height: 80px;
+                width: 300px;
+            }
+            .btn4{
+                background-color: gold;
+                color: white;
+                height: 80px;
+                width: 300px;
+            }
+        
+        }
+
+        /* adding in  */
+
+        @media screen and (min-width:600px) and  (max-width:800px) {
+        
+            .btn1{
+                background-color: rgb(177, 14, 14);
+                color: white;
+                height: 120px;
+                width: 350px;
+            }
+            .btn2{
+                background-color:salmon;
+                color: white;
+                height: 120px;
+                width: 350px;
+            }
+            .btn3{
+                background-color: black;
+                color: white;
+                height: 120px;
+                width: 350px;
+            }
+            .btn4{
+                background-color: green;
+                color: white;
+                height: 120px;
+                width: 350px;
+            }
+    
+        }
+           
+        
+         
+          
